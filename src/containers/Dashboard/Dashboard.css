@@ -1,0 +1,11 @@
+.dashboard {
+    max-width: 990px;
+    border-top: none;
+    border: 1px solid #DADFE1;
+    margin: 0 auto;
+    background-color: white;
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}

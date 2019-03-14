@@ -1,0 +1,157 @@
+.modal {
+    z-index: 1000;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.modal__dialog {
+    background-color: #f4f4f4;
+    margin: 5% auto;
+    width: 50%;
+    height: 50%;
+    max-width: 600px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17)
+}
+
+.modal__dialog-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background: #f4f4f4;
+}
+
+.modal__dialog-head>p {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+    color: #4A4A4A;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.close {
+    color: #C5CACE;
+    font-size: 30px;
+}
+
+.close:hover, .close:focus {
+    color: #17D04B;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal__dialog-input {
+    display: flex;
+    padding: 15px 20px;
+    background: #C5CACE;
+}
+
+.modal__dialog-input>input {
+    width: 100%;
+    border: 0;
+    padding: 5px 10px;
+    background: #C5CACE;
+    color: #4A4A4A;
+    font-size: 18px;
+    display: block;
+}
+
+.modal__dialog-input>input::placeholder {
+    color: #778594;
+}
+
+.add_to_chat {
+    border: 0;
+    background: #C5CACE;
+}
+
+.add_to_chat>i {
+    color: #778594;
+    font-size: 25px;
+}
+
+.add_to_chat>i:hover, .add_to_chat>i:focus {
+    color: #17D04B;
+    cursor: pointer;
+}
+
+.modal__dialog-members {
+    max-height: 362px;
+    flex: 1 1 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /* height: 362px; */
+}
+
+.member {
+    padding: 8px 24px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.member:hover, .member:focus {
+    background-color: #e2e2e2;
+}
+
+.avatar {
+    flex: 0 0 40px;
+    width: 40px;
+    height: 40px;
+    font-size: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin: 0 16px 0 0;
+    position: relative;
+    user-select: none;
+    background-color: #fff;
+}
+
+.avatar>i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+}
+
+.member-details {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.member-details>p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #4A4A4A;
+    margin: 0 0 3px 0;
+}
+
+.member:hover>.remove_from_chat{
+    display: block;
+}
+
+.remove_from_chat{
+    display: none;
+    height: 100%;
+}
+
+.remove_from_chat>i {
+    display: flex;
+    align-items: center;
+    color: #778594;
+}
+
+.remove_from_chat>i:hover, .remove_from_chat>i:focus{
+    color: #17D04B;
+}

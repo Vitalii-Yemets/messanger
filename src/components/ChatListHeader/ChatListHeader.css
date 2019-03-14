@@ -1,0 +1,35 @@
+.sidebar__header {
+    display: flex;
+    /* flex-wrap: nowrap; */
+    /* flex: 0 0 80px; */
+    align-items: center;
+    box-sizing: border-box;
+    padding: 21px 19px 18px;
+}
+
+.dashboard__status_wrap {
+    flex: 1 1 100%
+}
+
+.dashboard__status {
+    font-size: 13px;
+    line-height: 15px;
+    color: #778594;
+}
+
+.dashboard__status_user {
+    font-size: medium;
+}
+
+.logout {
+    height: 18px;
+    background-image: url(../../assets/img/ic_exit_to_app.svg);
+    overflow: hidden;
+    font-size: 0;
+    /* margin-top: 10px; */
+    flex: 1 0 18px;
+}
+
+a.logout:active {
+    color: #18C942;
+}

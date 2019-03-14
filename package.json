@@ -1,0 +1,36 @@
+{
+  "name": "ontology-messenger-web-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "classnames": "2.2.6",
+    "js_utils": "git+https://github.com/Vitalii-Yemets/js_utils.git",
+    "ontology-dapi": "0.4.6",
+    "react": "16.8.2",
+    "react-dom": "16.8.2",
+    "react-redux": "6.0.0",
+    "react-router-dom": "4.3.1",
+    "react-scripts": "2.1.5",
+    "recompose": "0.30.0",
+    "redux": "4.0.1",
+    "redux-observable": "1.0.0",
+    "rxjs": "6.4.0"
+  },
+  "devDependencies": {
+    "eslint-plugin-import": "2.15.0",
+    "eslint-plugin-jsx-a11y": "6.2.0",
+    "redux-devtools-extension": "2.13.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
